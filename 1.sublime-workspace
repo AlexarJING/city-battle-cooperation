@@ -1,0 +1,1457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mouse",
+				"love.mouse.getPosition"
+			],
+			[
+				"frag",
+				"frags"
+			],
+			[
+				"for",
+				"fori\tfor i,v in ipairs()"
+			],
+			[
+				"updat",
+				"update"
+			],
+			[
+				"obj",
+				"objectSetMatrix"
+			],
+			[
+				"matrix",
+				"matrixHeight"
+			],
+			[
+				"random",
+				"love.math.random"
+			],
+			[
+				"print",
+				"love.graphics.print"
+			],
+			[
+				"q",
+				"love.event.quit"
+			],
+			[
+				"tab",
+				"table.insert\t(table, [pos,] value)"
+			],
+			[
+				"clear",
+				"love.graphics.clear"
+			],
+			[
+				"matrixC",
+				"matrixClear"
+			],
+			[
+				"getd",
+				"love.timer.getDelta"
+			],
+			[
+				"ra",
+				"love.math.random"
+			],
+			[
+				"matrixSa",
+				"matrixSaved"
+			],
+			[
+				"rect",
+				"love.graphics.rectangle"
+			],
+			[
+				"update",
+				"updateCD"
+			],
+			[
+				"parent",
+				"parent_angle"
+			],
+			[
+				"angle_",
+				"angle_a"
+			],
+			[
+				"subb",
+				"subBranchToSkyRate"
+			],
+			[
+				"setpont",
+				"love.graphics.setPointSize"
+			],
+			[
+				"change",
+				"changeStep"
+			],
+			[
+				"current",
+				"currentDay"
+			],
+			[
+				"setb",
+				"love.graphics.setBlendMode"
+			],
+			[
+				"bright",
+				"brightness"
+			],
+			[
+				"string",
+				"string.format\t(formatstring, ...)"
+			],
+			[
+				"newf",
+				"love.graphics.newFont"
+			],
+			[
+				"setp",
+				"love.graphics.setPointStyle"
+			],
+			[
+				"point",
+				"love.graphics.point"
+			],
+			[
+				"cir",
+				"love.graphics.circle"
+			],
+			[
+				"aura_",
+				"aura_inner"
+			],
+			[
+				"math",
+				"math.sin\t(x)"
+			],
+			[
+				"dra",
+				"love.graphics.draw"
+			],
+			[
+				"dr",
+				"love.graphics.draw"
+			],
+			[
+				"shape",
+				"love.physics.newPolygonShape"
+			],
+			[
+				"sha",
+				"love.physics.newChainShape"
+			],
+			[
+				"ci",
+				"love.graphics.circle"
+			],
+			[
+				"slime",
+				"slime_ball"
+			],
+			[
+				"setm",
+				"love.physics.setMeter"
+			],
+			[
+				"facotr",
+				"factorA"
+			],
+			[
+				"softb",
+				"softbodyTable"
+			],
+			[
+				"dista",
+				"love.physics.newDistanceJoint"
+			],
+			[
+				"newc",
+				"love.physics.newCircleShape"
+			],
+			[
+				"std_",
+				"std_item"
+			],
+			[
+				"player",
+				"player"
+			],
+			[
+				"key",
+				"love.keyboard.isDown"
+			],
+			[
+				"ope",
+				"love.system.openURL"
+			],
+			[
+				"os",
+				"os.execute\t([command])"
+			],
+			[
+				"copy",
+				"copyto"
+			],
+			[
+				"newRight",
+				"newRightButton"
+			],
+			[
+				"leftselect",
+				"leftSelectPosY"
+			],
+			[
+				"leftTop",
+				"leftTopX"
+			],
+			[
+				"partsp",
+				"partsPosLeft"
+			],
+			[
+				"get",
+				"love.mouse.getPosition"
+			],
+			[
+				"mousei",
+				"love.mouse.isDown"
+			],
+			[
+				"draw",
+				"love.graphics.draw"
+			],
+			[
+				"max",
+				"math.max\t(x, ...)"
+			],
+			[
+				"flag",
+				"flagLast"
+			],
+			[
+				"rand",
+				"love.math.random"
+			],
+			[
+				"scre",
+				"love.graphics.newScreenshot"
+			],
+			[
+				"canvas",
+				"love.graphics.newCanvas"
+			],
+			[
+				"isdon",
+				"love.mouse.isDown"
+			],
+			[
+				"poly",
+				"love.graphics.polygon"
+			],
+			[
+				"table",
+				"table.insert\t(table, [pos,] value)"
+			],
+			[
+				"getLocal",
+				"getLocalVelocity"
+			],
+			[
+				"ply",
+				"love.graphics.polygon"
+			],
+			[
+				"rando",
+				"love.math.random"
+			],
+			[
+				"inmd",
+				"love.image.newImageData"
+			],
+			[
+				"fon",
+				"love.graphics.newFont"
+			],
+			[
+				"carm",
+				"camera"
+			],
+			[
+				"isdo",
+				"love.keyboard.isDown"
+			],
+			[
+				"event",
+				"love.event.quit"
+			],
+			[
+				"camer",
+				"camera"
+			],
+			[
+				"mat",
+				"math.random\t([m [, n]])"
+			],
+			[
+				"up",
+				"unpack\t(list [, i [, j]])"
+			],
+			[
+				"road",
+				"road_body"
+			],
+			[
+				"joint",
+				"love.physics.newRevoluteJoint"
+			],
+			[
+				"join",
+				"love.physics.newWeldJoint"
+			],
+			[
+				"camera",
+				"camera_mini"
+			],
+			[
+				"setP",
+				"love.audio.setPosition"
+			],
+			[
+				"newch",
+				"love.physics.newChainShape"
+			],
+			[
+				"upa",
+				"unpack\t(list [, i [, j]])"
+			],
+			[
+				"lien",
+				"love.graphics.line"
+			],
+			[
+				"neww",
+				"love.physics.newWeldJoint"
+			],
+			[
+				"newre",
+				"love.physics.newRevoluteJoint"
+			],
+			[
+				"curretn",
+				"currentNormal"
+			],
+			[
+				"setLinear",
+				"setlinearVelocity"
+			],
+			[
+				"polyg",
+				"love.graphics.polygon"
+			],
+			[
+				"geto",
+				"love.audio.getPosition"
+			],
+			[
+				"circl",
+				"love.graphics.circle"
+			],
+			[
+				"getc",
+				"love.graphics.getColor"
+			],
+			[
+				"pol",
+				"love.graphics.polygon"
+			],
+			[
+				"newshape",
+				"love.physics.newRectangleShape"
+			],
+			[
+				"circ",
+				"love.graphics.circle"
+			],
+			[
+				"newim",
+				"love.graphics.newImage"
+			],
+			[
+				"setline",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"isd",
+				"love.mouse.isDown"
+			],
+			[
+				"love",
+				"love.keypressed(key, isrepeat)\tlove.keypressed-key-isrepeat"
+			],
+			[
+				"file",
+				"love.filesystem.load"
+			],
+			[
+				"new",
+				"love.graphics.newImageFont"
+			],
+			[
+				"ta",
+				"table.remove\t(table [, pos])"
+			],
+			[
+				"ke",
+				"love.keyboard.isDown"
+			],
+			[
+				"highL",
+				"highLightSlot"
+			],
+			[
+				"line",
+				"love.graphics.line"
+			],
+			[
+				"cardino",
+				"cardinfo"
+			],
+			[
+				"roll",
+				"roll_agl"
+			],
+			[
+				"setf",
+				"love.graphics.setFont"
+			],
+			[
+				"SETC",
+				"love.graphics.setColor"
+			],
+			[
+				"callba",
+				"callback_arg"
+			],
+			[
+				"client_",
+				"client_port"
+			],
+			[
+				"getr",
+				"love.math.getRandomState"
+			],
+			[
+				"setr",
+				"love.math.setRandomState"
+			],
+			[
+				"seed",
+				"love.math.setRandomSeed"
+			],
+			[
+				"search",
+				"searchForCreate"
+			],
+			[
+				"check",
+				"checkSkull"
+			],
+			[
+				"rad",
+				"love.math.setRandomSeed"
+			],
+			[
+				"we",
+				"while\twhile cond"
+			],
+			[
+				"setcl",
+				"love.graphics.setColor"
+			],
+			[
+				"gr",
+				"love.graphics.rectangle"
+			],
+			[
+				"drawf",
+				"drawFromOpDeck"
+			],
+			[
+				"selfk",
+				"selfkill10"
+			],
+			[
+				"onAtta",
+				"onAttack"
+			],
+			[
+				"attack",
+				"attackweak"
+			],
+			[
+				"alway",
+				"cardsAlways_update"
+			],
+			[
+				"cost_",
+				"cost_lvl0"
+			],
+			[
+				"inter",
+				"interceptTab"
+			],
+			[
+				"minion",
+				"minionTab"
+			],
+			[
+				"abilit",
+				"abilities"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scr/game.lua",
+			"settings":
+			{
+				"buffer_size": 498,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Love2D Project/Texel/main.lua",
+			"settings":
+			{
+				"buffer_size": 1885,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Love2D Project/Texel/ui/layout.lua",
+			"settings":
+			{
+				"buffer_size": 2757,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "object/map.lua",
+			"settings":
+			{
+				"buffer_size": 2006,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "object/tank.lua",
+			"settings":
+			{
+				"buffer_size": 3126,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scene/test.lua",
+			"settings":
+			{
+				"buffer_size": 263,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scr/net.lua",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "object/bullet.lua",
+			"settings":
+			{
+				"buffer_size": 2204,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Love2D"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			],
+			[
+				"",
+				"Build: Run"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 140.0,
+		"history":
+		[
+			"Love2D",
+			"love2d",
+			"build",
+			"Build",
+			"Love2D",
+			"Love2d",
+			"love2d",
+			"build"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Love2D Project/cityBattle",
+		"/F/Love2D Project/cityBattle/lib",
+		"/F/Love2D Project/cityBattle/object",
+		"/F/Love2D Project/cityBattle/scene",
+		"/F/Love2D Project/cityBattle/scr"
+	],
+	"file_history":
+	[
+		"/F/Love2D Project/cityBattle/scr/lib/gamestate.lua",
+		"/F/Love2D Project/cityBattle/lib/util.lua",
+		"/F/Love2D Project/cityBattle/conf.lua",
+		"/F/Love2D Project/lamborCat/obj/player/cat.lua",
+		"/F/Love2D Project/lamborCat/obj/base.lua",
+		"/F/Love2D Project/cityBattle/lib/animation.lua",
+		"/D/qqmessage/1643386616/FileRecv/公会制度——（联盟-洛丹伦之怒）初稿 (2).txt",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.089/changes.txt",
+		"/C/Users/Alexar/Desktop/test/main.lua",
+		"/F/Love2D Project/cellTD/conf.lua",
+		"/F/Love2D Project/castlevania/main.lua",
+		"/F/Love2D Project/lamborCat/scene/level1.lua",
+		"/F/Love2D Project/love2d tutorials/examples/e0011.lua",
+		"/F/Love2D Project/love2d tutorials/examples/e0010.lua",
+		"/F/Love2D Project/love2d tutorials/examples/e0007.lua",
+		"/F/Love2D Project/love2d tutorials/assets/e0007/object/player.lua",
+		"/F/Love2D Project/love2d tutorials/assets/e0007/misc/resloader.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.055/Readme.txt",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.781/filelist.bin",
+		"/D/qqmessage/1643386616/FileRecv/【整理】恶魔城吧友意见.txt",
+		"/C/Users/Alexar/Desktop/PsxMC322/sn.txt",
+		"/D/qqmessage/1643386616/FileRecv/【吧务】恶魔城吧关于“恶魔城狂迷”以及其月下重制计划的意见.txt",
+		"/C/Users/Alexar/Desktop/test/mosaic_fill.glsl",
+		"/C/Users/Alexar/Desktop/love-0.11.0-win32/readme.txt",
+		"/F/World of Warcraft 60/Interface/AddOns/test/test.toc",
+		"/F/Love2D Project/chargame/ui/newGame.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.411/main.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.896/Findaction.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.461/DecisionTree.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.760/Data.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.410/DecisionTree.lua",
+		"/C/Users/Alexar/Desktop/Fish-v320/what's new.txt",
+		"/F/World of Warcraft 60/realmlist.wtf",
+		"/F/Love2D Project/3match/scr/game/gamectrl.lua",
+		"/F/Love2D Project/3match/scr/game/frame.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.239/DPSMate_DecursesReceived.toc",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.178/Findaction.lua",
+		"/F/World of Warcraft 60/WTF/config.wtf",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.003/Findaction.lua",
+		"/C/Users/Alexar/Desktop/mark/data2.txt",
+		"/C/Users/Alexar/Desktop/survive/ui/title.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/WowLua/WowLua.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/test/test.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/WowLua/Localization.enUS.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/WowLua/WowLua_Config.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/SellerHelper/SellerHelper.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_MC/Majordomo.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_API/API.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_API/DBM_API.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_API/InfoFrame.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_MC/Bosses.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/SuperInspect/SuperInspect.toc",
+		"/C/Users/Alexar/Desktop/tracker/readme.txt",
+		"/C/Users/Alexar/Desktop/新建文本文档.txt",
+		"/F/World of Warcraft 60/Interface/AddOns/WowLua/FAIAP.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/CombatSentryGizmo/CSG_AbilityList.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_MC/DBM_MC.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/DBM_MC/Lucifron.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/ZHunterMod/Localization.CN.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/AntiDaze/AntiDaze.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/Buffalo/Buffalo-zhCN.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/CombatSentryGizmo/localization.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/CombatSentryGizmo/CombatSentryGizmo.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/CombatSentryGizmo/CombatSentryGizmo.toc",
+		"/F/Love2D Project/blockWorld/main.lua",
+		"/F/Love2D Project/blockWorld/scr/editor.lua",
+		"/F/Love2D Project/blockWorld/obj/group.lua",
+		"/F/Love2D Project/blockWorld/obj/wall.lua",
+		"/F/Love2D Project/blockWorld/obj/player.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/SellerHelper/SellerHelper.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/SelfCast/SelfCast.lua",
+		"/F/World of Warcraft 60/Interface/AddOns/SelfCast/SelfCast.xml",
+		"/F/World of Warcraft 60/Interface/AddOns/SelfCast/SelfCast.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/DamageMeters/DamageMeters.toc",
+		"/F/Love2D Project/blockWorld/obj/part.lua",
+		"/F/Love2D Project/blockWorld/obj/car.lua",
+		"/F/Love2D Project/blockWorld/scr/game.lua",
+		"/F/pal/说明.txt",
+		"/F/World of Warcraft 60/Interface/AddOns/zBar/zBar.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/WowLua/WowLua.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/TrinketMenu/TrinketMenu.toc",
+		"/F/World of Warcraft 60/Interface/AddOns/DamageMeters/DamageMeters.lua",
+		"/D/qqmessage/1643386616/FileRecv/熊德RAID前毕业装.txt",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.882/MyApp.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.855/MyApp.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.164/MainScene.lua",
+		"/D/qqreceive/公会制度——（联盟-洛丹伦之怒） (1).txt",
+		"/D/qqmessage/1643386616/FileRecv/DKP改 (4).txt",
+		"/C/Users/Alexar/Desktop/项目申报/任务分配.txt",
+		"/C/Users/Alexar/Desktop/需要改的数据.txt",
+		"/C/Users/Alexar/Desktop/luacomTest.lua",
+		"/C/Users/Alexar/Desktop/123.txt",
+		"/C/Users/Alexar/Desktop/CPC客户端离线升级包(2017-05-12）/使用说明.txt",
+		"/D/qqmessage/1643386616/FileRecv/cw/cw/main.lua",
+		"/C/Users/Alexar/Desktop/本周工作.txt",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$DIa0.411/使用说明.txt",
+		"/F/Love2D Project/blockWorld/obj/base.lua",
+		"/F/Love2D Project/blockWorld/lib/gamera.lua",
+		"/F/Love2D Project/blockWorld/lib/util.lua",
+		"/F/Love2D Project/blockWorld/obj/collidable.lua",
+		"/F/Love2D Project/raiden/object/ship.lua",
+		"/F/Love2D Project/blockWorld/scene/test.lua",
+		"/F/Love2D Project/majiang/object/player.lua",
+		"/F/Love2D Project/mapgen/lib/voronoi2.lua",
+		"/F/Love2D Project/mapgen/lib/voronoi.lua",
+		"/C/Users/Alexar/AppData/Local/Temp/Rar$EXa0.298/Readme.txt",
+		"/F/Love2D Project/majiang/object/game.lua",
+		"/F/Love2D Project/raiden/object/collidable.lua",
+		"/F/Love2D Project/raiden/object/player.lua",
+		"/F/Love2D Project/charGIF/matrix.txt",
+		"/F/Love2D Project/raiden/object/base.lua",
+		"/F/Love2D Project/blockWorld/obj/dynamic.lua",
+		"/F/Love2D Project/raiden/scr/game.lua",
+		"/F/Love2D Project/charGIF/main.lua",
+		"/F/Love2D Project/blockWorld/conf.lua",
+		"/F/Love2D Project/tetris/main.lua",
+		"/F/Love2D Project/tetris/frag.lua",
+		"/C/Users/Alexar/Desktop/love编译工具/compile.lua",
+		"/F/Love2D Project/tower defence/lib/tween.lua",
+		"/F/Love2D Project/box2d/libs/camera.lua",
+		"/F/Love2D Project/tower defence/lib/util.lua",
+		"/F/Love2D Project/tetris/grid.lua",
+		"/F/Love2D Project/tetris/bloom.lua",
+		"/C/Users/Alexar/Desktop/test_compile/main.lua",
+		"/F/Love2D Project/tower defence/frag.lua",
+		"/F/Love2D Project/box2d/editor/editor.lua",
+		"/F/Love2D Project/fight/conf.lua",
+		"/F/Love2D Project/fluid/main.lua"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"，",
+			"previous",
+			"wowluab",
+			"self",
+			"onload",
+			"wowluabutton_previous:",
+			"wowluabutton",
+			"...",
+			"#",
+			"arg",
+			"adjustposition",
+			"player",
+			"ship",
+			"frag",
+			"self",
+			"math.",
+			"score",
+			"matrixClear",
+			"removelin",
+			"matrixsave()",
+			"matrixsave",
+			"print",
+			"update",
+			"falling",
+			"create",
+			"game.timer",
+			"create",
+			"line2Clear",
+			"inrect",
+			"object",
+			"save",
+			"game",
+			"test",
+			"polygon",
+			"print",
+			"self.rot",
+			"leaf",
+			"lastindex",
+			"self.parent",
+			"self",
+			"rain",
+			"sun",
+			"grow",
+			"leaf",
+			"2500",
+			"5000",
+			"bg",
+			"update",
+			"initialize",
+			"inner",
+			"keyword",
+			"operator",
+			"red",
+			"c.red",
+			"return",
+			"theme",
+			"monokai",
+			"smile",
+			"group",
+			"mask",
+			"lua",
+			"rand",
+			"tess",
+			"tesselate",
+			"print",
+			"destroy",
+			"rect",
+			"print",
+			"slidestart",
+			"user",
+			"ball",
+			"print",
+			"sys",
+			".getGrid",
+			"contac",
+			"norm",
+			"world",
+			"radius",
+			"type",
+			"mask",
+			"power",
+			"print",
+			"flag",
+			"key",
+			"lapcheck",
+			"round",
+			"score",
+			"time",
+			"game.time",
+			"time",
+			"draw",
+			"print",
+			"set",
+			"newDown",
+			"print",
+			"input",
+			"frame",
+			"bordercolor",
+			"frame",
+			"print",
+			"partsDat",
+			"ui",
+			"pos=",
+			"circle",
+			"polygon",
+			"require ",
+			"flag",
+			"get",
+			"dual",
+			"drift",
+			"last",
+			"print",
+			"self.las",
+			"self.last",
+			"getLast",
+			"pursue",
+			"math.getFirstCar()",
+			"target",
+			"rnd_item",
+			"std",
+			"item",
+			"std_item",
+			",road",
+			" road.",
+			"gamebutton",
+			"print",
+			"onclick",
+			"Gamestate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"wall",
+			"base",
+			"new",
+			"toClear",
+			"flower",
+			"weatherIndex",
+			"game",
+			"snow",
+			"moon",
+			"stageSize/2",
+			"stageSize",
+			"fg",
+			"draw",
+			"init",
+			"outer",
+			"polygon",
+			"rect",
+			":getGrid",
+			"self.world",
+			"left",
+			"type=",
+			"flag",
+			"dual",
+			"accelerate",
+			"self:getLast",
+			"drift",
+			"getTarget(obj)",
+			"pursue",
+			"rnd",
+			"std_speed",
+			"gamestate",
+			"shell[].",
+			"spark",
+			"back",
+			"3000",
+			"50",
+			"",
+			"50",
+			"",
+			"ky",
+			"kx",
+			"self.last",
+			"setAngle",
+			"Polygon",
+			"right",
+			"left",
+			"fixture",
+			"setRestitution",
+			"right",
+			"left2",
+			"p",
+			"right",
+			"*4",
+			"*8",
+			"self.",
+			"keyboard.",
+			"self.",
+			"frame",
+			"slots",
+			"isHover",
+			"down",
+			"60",
+			"needConfirm",
+			"cmd",
+			"info",
+			"deckEditor.",
+			"",
+			"\t{1,\"",
+			"{\"1\",\"",
+			"delay.",
+			"card.belongTo",
+			"default",
+			"me",
+			"onDiscard",
+			"op",
+			"\"onTurnOver\",a.heroDraw",
+			"me.hero",
+			"me",
+			"record",
+			"frame.ab.actionMove",
+			"ab.actionMove",
+			"me",
+			"weakest.hp=100",
+			".",
+			"cards[i]",
+			"unpack(v[i])",
+			"make",
+			"\"状态\"",
+			"a.heroDraw",
+			"frame.heroDraw",
+			"where",
+			"card.belongTo",
+			"card",
+			"",
+			"frame",
+			"lower",
+			"card:",
+			".",
+			".you",
+			":attack",
+			"onSlaught",
+			"green",
+			"upper",
+			"",
+			"绿",
+			"\"green\"",
+			"green",
+			"upper",
+			"绿",
+			"nil",
+			"",
+			"hero",
+			"hand",
+			"field",
+			"deck",
+			"bank",
+			"cards",
+			"upper.",
+			"deck",
+			"hero",
+			"hand",
+			"field",
+			"bank",
+			"lower.",
+			"upper",
+			"lower",
+			"upper"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scr/game.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 572.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/F/Love2D Project/Texel/main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/Love2D Project/Texel/ui/layout.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "object/map.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "object/tank.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1452.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scene/test.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "scr/net.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								784,
+								784
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "object/bullet.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1628.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua Love/LuaLove.sublime-build",
+	"project": "1.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
