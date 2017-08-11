@@ -17,11 +17,15 @@ function net:serverInit()
         client:send("reply_init",{obj = data, map = game.map.tiles})
     end)
 
-    self.server:on("need_addTank",function(data,client)
-        local tank = Tank(1000,500,0,3,2,1)
+    self.server:on("need_tank",function(data,client)
+        local tank = Tank(unpack(data))
         delay:new(1,function() client:send("your_tank",tank.id) end)
     end)
 
+    self.server:on("need_HQ",function(data,client)
+        local hq = HQ(unpack(data))
+        delay:new(1,function() client:send("your_HQ",hq.id) end)
+    end)
     self.server:on("need_fire",function(data,client)
         game.objects[data]:fire(true)
     end)
@@ -29,7 +33,7 @@ function net:serverInit()
     self.server:on("need_move",function(data,client)
         local obj = game.objects[data.id]
         obj.x,obj.y,obj.rot = data.x,data.y,data.rot
-        obj:syncMove(true)
+        --obj:syncMove(true)
     end)
 end
 
@@ -44,6 +48,7 @@ function net:clientInit()
     self.client:on("reply_init",function(data)
         print("sync")
         for id,objData in pairs(data.obj) do
+            print(id,objData.tag,unpack(objData))
             local obj
             if objData.tag == "tank" then
                 obj=Tank(unpack(objData))
@@ -51,8 +56,12 @@ function net:clientInit()
                 obj=Bullet(unpack(objData))
             elseif objData.tag == "ding" then
                 obj=Ding(unpack(objData))
+            elseif objData.tag == "hq" then
+                obj=HQ(unpack(objData))
+            elseif objData.tag == "item" then
+                obj=Item(unpack(objData))
             end
-            obj.id = objData.id
+            obj:setID(objData.id)
         end
 
         game.map:setData(data.map)
@@ -67,8 +76,12 @@ function net:clientInit()
             obj=Bullet(unpack(data))
         elseif data.tag == "ding" then
             obj=Ding(unpack(data))
+        elseif data.tag == "item" then
+            obj=Item(unpack(data))
+        elseif data.tag == "hq" then
+            obj=HQ(unpack(data))
         end
-        obj.id = data.id
+        obj:setID(data.id)
     end)
     
     self.client:on("move_obj",function(data)
@@ -81,7 +94,7 @@ function net:clientInit()
     end)
 
     self.client:on("kill_obj",function(data)
-        game.objects[data] = nil
+        game.objects[data]:destroy()
     end)
     
     self.client:on("set_tile",function(data)
@@ -92,6 +105,41 @@ function net:clientInit()
         game.player = game.objects[data]
         print("my tank here",data)
     end)
+
+    self.client:on("your_HQ",function(data)
+        --game.player = game.objects[data]
+        --print("my tank here",data)
+    end)
+
+    self.client:on("upgrade",function(data)
+        local tank = game.objects[data]
+        tank:upgrade()
+    end)
+
+    self.client:on("degrade",function(data)
+        local tank = game.objects[data]
+        tank:degrade()
+    end)
+
+    self.client:on("shell",function(data)
+        local tank = game.objects[data]
+        tank:takeShell()
+    end)
+
+    self.client:on("poweroff",function(data)   
+        game.objects[data]:poweroff()
+    end)
+
+    self.client:on("boom",function(data)
+        for i,id in ipairs(data) do
+            game.objects[id]:damage()
+        end
+    end)
+
+    self.client:on("reinforce",function(data)
+        game.forces[data].reinforce = game.forces[data].reinforce + 1
+    end)
+
 end
 
 function net:serverUpdate(dt)

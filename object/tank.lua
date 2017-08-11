@@ -8,11 +8,13 @@ for i = 0,7 do
     tankAnimQuad[4][i+1] = {128,i*16+128,16,16,0,0,31+128,15+i*16+128,0.1}
 end
 
+shellAnimQuad = {255,143,16,16,0,0,287,159,0.05,2}
 tank.speed = 100
 tank.fireCD = 0.2
 tank.grade = 1
 tank.tag = "tank"
 tank.aabb = true
+tank.shellCD = 5
 
 function tank:init(x,y,rot,scale,team,grade)
     self.x = x
@@ -24,7 +26,10 @@ function tank:init(x,y,rot,scale,team,grade)
     self.grade = grade or 1
     self.scale = scale or 1
     self.fireTimer = 0
+    self.shellTimer = 0
+    self.poweroffTimer = 0
     self.anim = Anim:new(res.texture,unpack(tankAnimQuad[self.team][self.grade]))
+    self.shellAnim = Anim:new(res.texture,unpack(shellAnimQuad))
     game.world:add(self,
         self.x-self.ax*self.scale,
         self.y-self.ay*self.scale,
@@ -55,6 +60,8 @@ function tank:control(dt)
     return moved
 end
 
+
+
 function tank:fire(force)
     if self.fireTimer<0 or force then
         self.fireTimer = self.fireCD
@@ -78,16 +85,40 @@ function tank:fire(force)
     end
 end
 
+function tank:takeShell(time)
+    self.shellTimer = time or self.shellCD
+    self.inShell = true
+    if net.server then net.server:sendToAll("shell",self.id) end
+end
+
 function tank:damage()
-    self.grade = self.grade -1 
-    if self.grade<1 then
+    if self.inShell then return end
+    
+    if self.grade==1 then
         self:destroy()
+    else
+        self:degrade()
     end
+end
+
+function tank:degrade()
+    self.grade = self.grade -1 
+    self.anim = Anim:new(res.texture,unpack(tankAnimQuad[self.team][self.grade]))
+    if net.server then net.server:sendToAll("degrade",self.id) end
+end
+
+function tank:upgrade()
+    self.grade = self.grade + 1
+    if self.grade>8 then
+        self.grade = 8
+    end
+    self.anim = Anim:new(res.texture,unpack(tankAnimQuad[self.team][self.grade]))
+    if net.server then net.server:sendToAll("upgrade",self.id) end
 end
 
 function tank.collFilter(me,other)
     if other.tag == "brick" or other.tag == "water" or other.tag == "iron" 
-        or other.tag == "base"or other.tag == "tank" or other.tag == "border" then
+        or other.tag == "hq" or other.tag == "tank" or other.tag == "border" then
         return bump.Response_Slide
     else
         return bump.Response_Cross
@@ -96,11 +127,11 @@ end
 
 function tank:collision(cols)
     if self.destroyed then return end
-
+--[[
     for i,col in ipairs(cols) do
 		local other = col.other
         
-    end
+    end]]
     return #cols>0
 end
 
@@ -117,29 +148,50 @@ end
 function tank:update(dt)
     if self.destroyed then return end
     self.fireTimer = self.fireTimer - dt
+    self.shellTimer =self.shellTimer - dt
+    self.poweroffTimer =self.poweroffTimer - dt
+    if self.shellTimer<0 then
+        self.inShell = false
+    end
+
+
     local moved
-    if self == game.player then
+    if self == game.player and self.poweroffTimer<0 then
         moved = self:control(dt)
     end
-    if moved then
+
+    local colled = self:checkColl() 
+
+    if moved or colled then
         self:syncMove()
     end
 end
 
-function tank:syncMove(skipSync)
-    local ifcoll = self:checkColl() 
-    if (not skipSync) or ifcoll then
-        self:move()
+function tank:draw()
+    love.graphics.setColor(255,255,255)
+    self.anim:update(love.timer.getDelta())
+    self.anim:draw(self.x,self.y,self.rot*math.pi/2,self.scale,self.scale,self.ax,self.ay)
+    if self.inShell then
+        self.shellAnim:update(love.timer.getDelta())
+        local rnd = love.math.random()
+        if rnd<0.33 then
+            love.graphics.setColor(0,0,255)
+        elseif rnd<0.66 then 
+            love.graphics.setColor(255,0,0)
+        else
+            love.graphics.setColor(255,255,255)
+        end
+        self.shellAnim:draw(self.x,self.y,0,self.scale,self.scale,self.ax,self.ay)
     end
 end
 
-function tank:draw()
-    self.anim:update(love.timer.getDelta())
-    self.anim:draw(self.x,self.y,self.rot*math.pi/2,self.scale,self.scale,self.ax,self.ay)
+function tank:poweroff(time)
+    self.poweroffTimer = time or 5
+    if net.server then net.server:sendToAll("poweroff",self.id) end
 end
 
 function tank:destroy()
-    base.destroy(self)
+    Base.destroy(self)
     Ding(self.x,self.y,self.scale)
 end
 return tank

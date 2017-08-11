@@ -3,18 +3,25 @@ local id = 0
 function base:init(...)
 end
 
-function base:create(...)
-    self.data = {...}
-    id = id + 1
-    game.objects[id] = self
-    self.id = id
-    self.data.id = id
-    self.data.tag = self.tag
-    if net.server then net.server:sendToAll("create_obj",self.data) end
-    print("create",self.id,self.tag)
+function base:create(...)    
+    if net.server then 
+        self.data = {...}
+        self.data.tag = self.tag
+        id = id + 1
+        game.objects[id] = self
+        self.id = id
+        self.data.id = id
+        net.server:sendToAll("create_obj",self.data) 
+        print("create",self.id,self.tag)
+    end
 end
 
-function base:move()
+function base:setID(id)
+    self.id = id
+    game.objects[id] = self
+end
+
+function base:syncMove()
     local data = {
         id = self.id,
         x = self.x,
@@ -29,16 +36,17 @@ function base:move()
 end
 
 function base:destroy()
-    if self.destroyed then return end
     self.destroyed = true
     if self.aabb then
         game.world:remove(self)
     end
-    game.objects[self.id] = nil
-    if net.server then
-        net.server:sendToAll("kill_obj",id)
+    if game.objects[self.id] then
+        game.objects[self.id]  = nil
+        if net.server then
+            net.server:sendToAll("kill_obj",self.id)
+        end
+        print("destroy",self.id,self.tag)
     end
-    print("destroy",self.id,self.tag)
 end
 
 return base

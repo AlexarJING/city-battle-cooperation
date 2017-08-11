@@ -18,9 +18,9 @@ Bullet = require "object/bullet"
 Ding = require "object/ding"
 Map = require "object/map"
 Game = require "scr/game"
-
+Item = require "object/item"
+HQ = require "object/headquarter"
 function love.load()
-    
     love.graphics.setBackgroundColor(50,50,150)
     gameState={}
     for _,name in ipairs(love.filesystem.getDirectoryItems(path.."scene")) do

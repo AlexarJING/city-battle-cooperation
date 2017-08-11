@@ -2,8 +2,9 @@ local game = class("game")
 
 function game:init()
     self.world = bump.newWorld()
-    self.map = Map(self.world,30,30,32)
+    self.map = Map(self.world,30,30,16)
     self.objects = {}
+    self.forces = {}
 end
 
 function game:update(dt)

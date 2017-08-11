@@ -1,5 +1,5 @@
 local ding = class("ding",Base)
-local dingQuad = {256,128,16,16,0,0,304,176,0.1,3}
+local dingQuad = {255,127,16,16,0,0,303,143,0.1,3}
 
 ding.tag = "ding"
 
@@ -22,6 +22,7 @@ function ding:update(dt)
 end
 
 function ding:draw()
+    love.graphics.setColor(255, 255, 255, 255)
     self.anim:update(love.timer.getDelta())
     self.anim:draw(self.x,self.y,0,self.scale,self.scale,8,8)
 end

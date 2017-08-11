@@ -62,7 +62,7 @@ function bullet:update(dt)
     self.x, self.y ,cols = game.world:move(self,self.x-5*self.scale,self.y-5*self.scale,self.collFilter)
     self.x, self.y = self.x +5*self.scale , self.y + 5*self.scale
     self:collision(cols)
-    self:move()
+    self:syncMove()
 end
 
 function bullet:draw()

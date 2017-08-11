@@ -8,8 +8,8 @@ function love.conf(t)
     
     t.window.title = "City Battle - Teamwork"         
     t.window.icon = nil
-    t.window.width = 1280
-    t.window.height = 760
+    t.window.width = 600
+    t.window.height = 600
     t.window.borderless = false
     t.window.resizable = false
     t.window.minwidth = 1

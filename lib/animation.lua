@@ -24,7 +24,7 @@ function animation:init(img,fx,fy,w,h,offx,offy,lx,ly,delay,count)
 	local stop
 	for y=fy,ly,h+offy do
 		for x=fx,lx,w+offx do
-			local quad = love.graphics.newQuad(x, y, w, h, sw, sh)
+			local quad = love.graphics.newQuad(x, y, w, h, sw-1, sh-1)
 			index=index+1
 			self.frames[index]=quad
 			if count and index+1>count then  stop=true ;break end
